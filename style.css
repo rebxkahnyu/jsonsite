@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&family=Yomogi&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+    background-color: midnightBlue;
+
+}
+
+#mainContainer {
+  font-family: sans-serif;
+  font-size: 2vw;
+  font-family: 'Yomogi', cursive;
+  margin: auto;
+
+}
+
+#title {
+  text-align: center;
+  padding: 3vw;
+      color: white;
+}
+
+#heading {
+  font-size: 1.25vw;
+  text-align: justify;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      color: white;
+}
+
+#rawr {
+  width: 30%;
+  height: auto;
+  margin: 3vw;
+}
+
+
+button {
+  margin: auto;
+  padding-bottom: 10px;
+  font-family: 'Sono', sans-serif;
+  font-size: 1vw;
+}
+
+@keyframes buttons {
+  from {background-color: lavender;}
+  to {background-color: plum;}
+}
+
+.collapsible {
+  background-color: lavender;
+  color: black;
+  cursor: pointer;
+  padding: 3vw;
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+
+.active, .collapsible:hover {
+  background-color: plum;
+  animation-name: buttons;
+  animation-duration: 0.5s;
+}
+
+
+.content {
+  padding: 0 15vw;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.contentAge {
+  padding: 2vw;
+  font-size: 3vw;
+}
+
+.contentDesc {
+  font-family: 'Sono', sans-serif;
+  font-size: 1.3vw;
+  padding-left: 5vw;
+}
+
+.image {
+  width: 35%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+
+.flexbox {
+  display: flex;
+  margin-bottom: 5vw;
+}
+
+#output {
+  margin-bottom: 2vw;
+}
