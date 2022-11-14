@@ -66,7 +66,7 @@ let hyperfixations = [
     "name" : "K-Dramas (specifically '18 Again', 'Hospital Playlist', and 'My Liberation Notes')",
     "age" : "18",
     "id" : "kdramas",
-    "description" : "i have watched MANY. MANY korean dramas, but recently have learned the beauty of good writing. i used to watch shows for pure entertainment but recent tv shows have been so life changing. these specific shows took up my thoughts entirely, like i spend the ENTIRE day just thinking about this stuff and consuming it over and over again. the good thing was that these shows taught me a lot of good lessons, and they all have great writing. they made me cry way too much as well. very short but very intense",
+    "description" : "i have watched MANY. MANY korean dramas, but recently have learned the beauty of good writing. i used to watch shows for pure entertainment but recent tv shows have been so life changing. these specific shows took up my thoughts entirely, like i spend the ENTIRE day just thinking about this stuff and consuming it over and over again. the good thing was that these shows taught me a lot of great lessons. they made me cry way too much as well. very short but very intense",
     // "favorite" : "Hospital Playlist",
     "image" : "kdrama.jpeg"
   },
